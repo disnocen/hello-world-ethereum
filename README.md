@@ -22,6 +22,7 @@ The steps to reproduce this repository (other than simply cloning it):
   smart contract or set of smart contracts
 + uncommented the development network details in `truffle-config.js`
 + copy the `contracts-copy/simple-storage.sol` in `contracts/SimpleStorage.sol`
++ copy the `contracts-copy/2_simple_storage.js` in `migrations/2_simple_storage.js`
 + follow the script `run.sh`
 
 ## Interact with the smart contract

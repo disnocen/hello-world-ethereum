@@ -47,7 +47,7 @@ The contract has two functions:
 + get(): reads from the blockchain the value (this is free) 
 
 You can use the set function in the geth console and put the number 10 by doing:
-> SimpleStorageContract.set(10, {from: eth.account[0]})
+> SimpleStorageContract.set(10, {from: eth.accounts[0]})
 
 You can read the number stored by doing:
 > SimpleStorageContract.get() 
